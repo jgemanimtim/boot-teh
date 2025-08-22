@@ -16,7 +16,11 @@ public class BootehController {
 	
 	@RequestMapping("/")
 	public String home() {
-		return "Booteh";
+		logger.info("home accessed");
+		
+		
+		
+		return " Booteh Home!!!!";
 	}
 	
 
